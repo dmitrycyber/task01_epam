@@ -16,4 +16,12 @@ public class CustomDate {
     public int getDay() {
         return day;
     }
+
+    @Override
+    public String toString() {
+        return "CustomDate{" +
+                "month=" + month +
+                ", day=" + day +
+                '}';
+    }
 }

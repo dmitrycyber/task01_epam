@@ -2,10 +2,9 @@ package com.divoninsky.simpleTasks.task2;
 
 public class Main {
     public static void main(String[] args) {
-        int dayNumber = 88;
+        int dayNumber = 366;
         try {
-            CustomDate date = calculateDateByDayNumber(dayNumber);
-            System.out.println("Month = " + date.getMonth() + " Day = " + date.getDay());
+            System.out.println(calculateDateByDayNumber(dayNumber));
         } catch (Exception e) {
             e.printStackTrace();
         }

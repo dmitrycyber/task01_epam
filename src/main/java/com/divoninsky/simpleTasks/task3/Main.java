@@ -5,7 +5,10 @@ public class Main {
         int a = -2;
         int b = -1;
         int c = 0;
+        modifyNumbers(a,b,c);
+    }
 
+    private static void modifyNumbers(int a, int b, int c) {
         if (a > b && b > c){
             a*=2;
             b*=2;
@@ -16,9 +19,8 @@ public class Main {
             b = Math.abs(b);
             c = Math.abs(c);
         }
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-        System.out.println("c = " + c);
+        System.out.println("a = " + a + ", b = " + b + ", c = " + c);
     }
+
 
 }

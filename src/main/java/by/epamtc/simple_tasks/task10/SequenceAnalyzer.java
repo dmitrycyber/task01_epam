@@ -1,21 +1,21 @@
-package com.divoninsky.simpleTasks.task10;
+package by.epamtc.simple_tasks.task10;
 
 public class SequenceAnalyzer {
     private boolean isIncreasing = true;
     private boolean isAdjacentNumbersEquals = false;
     private boolean isAlternating = true;
 
-    public void start(){
+    public void analyze() {
         int currentNumber = NumberScanner.getNumberFromKeyboard();
         int nextNumber = NumberScanner.getNumberFromKeyboard();
-        while (nextNumber != 0){
-            if (currentNumber >= nextNumber){
+        while (nextNumber != 0) {
+            if (currentNumber >= nextNumber) {
                 isIncreasing = false;
             }
-            if (currentNumber == nextNumber){
+            if (currentNumber == nextNumber) {
                 isAdjacentNumbersEquals = true;
             }
-            if (currentNumber > 0 && nextNumber > 0 || currentNumber < 0 && nextNumber < 0){
+            if (currentNumber > 0 && nextNumber > 0 || currentNumber < 0 && nextNumber < 0) {
                 isAlternating = false;
             }
             currentNumber = nextNumber;
@@ -35,7 +35,7 @@ public class SequenceAnalyzer {
         return isAlternating;
     }
 
-    public void printSequenceСharacteristics(){
+    public void printSequenceСharacteristics() {
         System.out.println("Возрастающая " + isIncreasing);
         System.out.println("Есть одинаковые соседние числа " + isAdjacentNumbersEquals);
         System.out.println("Знакочередующаяся " + isAlternating);

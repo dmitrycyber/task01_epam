@@ -1,4 +1,4 @@
-package com.divoninsky.simpleTasks.task7;
+package by.epamtc.simple_tasks.task7;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +9,6 @@ public class Main {
     private static double replaceFractionalAndIntegerParts(double number) {
         int fractionalPart = (int) ((number - (int) number) * 1000);
         int integerPart = (int) number;
-        return fractionalPart + (double) integerPart/1000;
+        return fractionalPart + (double) integerPart / 1000;
     }
 }

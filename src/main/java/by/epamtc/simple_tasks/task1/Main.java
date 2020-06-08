@@ -1,4 +1,6 @@
-package com.divoninsky.simpleTasks.task1;
+package by.epamtc.simple_tasks.task1;
+
+import static java.lang.Math.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +11,6 @@ public class Main {
     }
 
     private static double calculateValueOfExpression(int a, int b, int c) {
-        return (b + Math.sqrt(b * b + 4 * a * c))/2 * a - Math.pow(a, 3) * c + Math.pow(b, -2);
+        return ((b + sqrt(pow(b, 2) + 4 * a * c)) / (2 * a)) - pow(a, 3) * c + pow(b, -2);
     }
 }

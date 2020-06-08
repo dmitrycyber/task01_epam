@@ -1,31 +1,29 @@
-package com.divoninsky.simpleTasks.task5;
+package by.epamtc.simple_tasks.task5;
 
 public class Main {
     public static void main(String[] args) {
         int number = 137;
-        getSumOfNumeral(number);
-        getMultiplyNumeral(number);
+        getSumOfDigits(number);
+        getMultiplyDigits(number);
         getNumberWithReplacedTensAndHundreds(number);
         getNumberWithUnitsAsThousands(number);
     }
 
-    private static int getSumOfNumeral(int number) {
+    private static int getSumOfDigits(int number) {
         return (number / 100) + (number / 10 % 10) + (number % 10);
     }
 
-    private static int getMultiplyNumeral(int number) {
+    private static int getMultiplyDigits(int number) {
         return (number / 100) * (number / 10 % 10) * (number % 10);
     }
 
     private static int getNumberWithReplacedTensAndHundreds(int number) {
-        return (number / 10 % 10)*100 + (number / 100)*10 + (number % 10);
+        return (number / 10 % 10) * 100 + (number / 100) * 10 + (number % 10);
     }
 
     private static int getNumberWithUnitsAsThousands(int number) {
-        return  (number % 10) * 1000 + number;
+        return (number % 10) * 1000 + number;
     }
-
-
 
 
 }

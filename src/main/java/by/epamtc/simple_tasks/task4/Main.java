@@ -1,7 +1,7 @@
-package com.divoninsky.simpleTasks.task4;
+package by.epamtc.simple_tasks.task4;
 
 public class Main {
-    
+
 
     public static void main(String[] args) {
         int x = 14;
@@ -9,10 +9,10 @@ public class Main {
     }
 
     private static double calculateFunctionValue(int x) {
-        if (x<=13){
+        if (x <= 13) {
             return -Math.pow(x, 3) + 9;
         }
-        return -(3/ (double) x + 1);
+        return -(3 / (double) x + 1);
     }
 
 

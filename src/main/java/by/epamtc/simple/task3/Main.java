@@ -1,4 +1,4 @@
-package by.epamtc.simple_tasks.task3;
+package by.epamtc.simple.task3;
 
 public class Main {
     public static void main(String[] args) {

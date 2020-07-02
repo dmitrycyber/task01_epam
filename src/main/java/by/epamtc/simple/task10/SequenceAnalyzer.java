@@ -1,4 +1,4 @@
-package by.epamtc.simple_tasks.task10;
+package by.epamtc.simple.task10;
 
 public class SequenceAnalyzer {
     private boolean isIncreasing = true;

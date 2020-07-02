@@ -1,4 +1,4 @@
-package by.epamtc.simple_tasks.task2;
+package by.epamtc.simple.task2;
 
 public class CustomDate {
     private int month;

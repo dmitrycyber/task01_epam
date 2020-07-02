@@ -1,4 +1,4 @@
-package by.epamtc.simple_tasks.task4;
+package by.epamtc.simple.task4;
 
 public class Main {
 

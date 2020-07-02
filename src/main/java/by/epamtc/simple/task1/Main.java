@@ -1,4 +1,4 @@
-package by.epamtc.simple_tasks.task1;
+package by.epamtc.simple.task1;
 
 import static java.lang.Math.*;
 
